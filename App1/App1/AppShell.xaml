@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:App1.Views"
+       Title="App1"
+       x:Class="App1.AppShell">
+
+    
+    
+
+    
+
+    <TabBar>
+        <ShellContent Title="Page1" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:Page1}" />
+        <ShellContent Title="Page2" Icon="icon_about.png" ContentTemplate="{DataTemplate local:Page2}" />
+        <ShellContent Title="Page3" Icon="icon_about.png" ContentTemplate="{DataTemplate local:Page3}" />
+
+    </TabBar>
+
+    <!--
+        If you would like to navigate to this content you can do so by calling
+        await Shell.Current.GoToAsync("//LoginPage");
+    -->
+    
+
+
+</Shell>
